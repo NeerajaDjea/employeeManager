@@ -1,0 +1,19 @@
+{
+  "name": "employee_tracker",
+  "version": "1.0.0",
+  "description": "install pckg",
+  "main": "employee.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Neeraja",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cli-table": "^0.3.1",
+    "colour": "^0.7.1",
+    "express": "^4.17.1",
+    "figlet": "^1.2.4",
+    "mysql": "^2.17.1"
+  }
+}

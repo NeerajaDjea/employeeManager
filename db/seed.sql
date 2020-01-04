@@ -15,13 +15,13 @@ INSERT INTO employee_role (title, salary, department_id) VALUES
     ('Managing Director', 120000, 1),
     ('Marketing Director', 80000, 2),
     ('Accounts Executive', 60000, 3),
-    ('HR Manager', 60000, 4),
-    ('HR Executive',40000,4),
-    ('Web Developer', 65000, 5),
-    ('Finance Director', 80000, 3),
-    ('Marketing Executive',40000,2),
-    ('Software Engineer', 74000, 5),
-    ('Tech Support', 45000, 5);
+    ('HR Manager', 60000, 4,2),
+    ('HR Executive',40000,4,3),
+    ('Web Developer', 65000, 5,3),
+    ('Finance Director', 80000, 3,4),
+    ('Marketing Executive',40000,2,5),
+    ('Software Engineer', 74000, 5,1),
+    ('Tech Support', 45000, 5,1);
 
 
 

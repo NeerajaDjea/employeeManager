@@ -8,7 +8,7 @@ var figlet = require('figlet');
 var questions = require("./lib/questions")
 var connection = require("./db/connection")
 var Table = require("cli-table")
-    // var department = require("./lib/department")
+var department = require("./lib/department")
 
 function title() {
     figlet('Employee Manager', function(err, data) {

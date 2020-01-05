@@ -16,8 +16,7 @@ A command-line application to manage and update employee records
 
 1. Download or clone this repository into your local computer.
 2. In your MySQL client, run the ./db/employee.sql file to initialize the `Employee_Database` database 
-(Optional  Run`./db/seeds.sql` for sample data.).
-3.Install required npm packages using the package.json.
+(Optional  Run`./db/seeds.sql` for sample data.).Install required npm packages using the package.json.
 4. Edit the `connection.js` file with your own credentials so the app can connect to your MySQL server.
 
 ## Usage
